@@ -1,0 +1,22 @@
+meta {
+  name: Posts (post)
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://127.0.0.1:1020/posts/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "content": "te amo demasiado",
+    "color": "#4C194D",
+    "neg": 0.0,
+    "neu": 0.0,
+    "pos": 0.1
+  }
+  
+}
